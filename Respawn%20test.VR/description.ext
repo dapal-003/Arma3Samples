@@ -1,0 +1,16 @@
+respawnOnStart  = 0;
+author			= "AUTHOR";
+onLoadName		= "DATE";
+onLoadMission	= "";
+briefingName 	= "NAME";
+overviewText    = "DATE";
+loadScreen 		= "pictures\intro.paa";
+overviewPicture = "pictures\intro.paa";
+allowProfileGlasses = 0;
+
+class Header
+{
+	gameType =  Coop;	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 64;	// maximum number of players the mission supports
+};
